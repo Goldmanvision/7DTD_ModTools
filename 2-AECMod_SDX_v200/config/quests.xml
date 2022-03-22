@@ -1,0 +1,63 @@
+<configs>
+<remove xpath="/quests/quest[@id='quest_BasicSurvival1']" />
+
+  <insertBefore xpath="/quests/quest[@id='quest_BasicSurvival2']">
+		<quest id="quest_BasicSurvival1">
+		  <property name="group_name_key" value="test_kg_quests" />
+		  <property name="name_key" value="Perfect Strangers" />
+		  <property name="subtitle_key" value="Enter the D-LAMP" />
+		  <property name="description_key" value="Talk to Kacey about what this place is and why she's here. She may know how to open some of these doors." />
+		  <property name="icon" value="ui_game_symbol_map_trader" />
+		  <property name="category_key" value="quest" />
+		  <property name="difficulty" value="medium" />
+		  <property name="shareable" value="false" />
+		  
+		<property name="completion_key" value="I stumbled upon a massive underground bunker that seems to be untouched by the apocalypse. Near the entryway, I found another survivor who got here before me. Maybe I should talk to her." />
+
+				<reward type="Exp" value="3000"/>
+				<reward type="Item" id="AECnoteTest01" value="1"/>
+				<reward type="Item" id="casinoCoin" value="350"/>
+				<reward type="Quest" id="quest_whiteRiverCitizen1"/>
+
+		</quest>
+		
+	</insertBefore>
+	
+	
+<!-- ************************* -->
+	
+<!-- ///////////////////////////// -->
+	
+<!-- START Custom AEC Quest IDs -->
+
+	<insertBefore xpath="/quests/quest_list[@id='trader_quests']">
+		
+		<!-- Currently Broken...
+		<quest id="test_kg">
+
+		</quest>
+		-->
+		
+	</insertBefore>
+	
+<!-- END Custom AEC Quest IDs -->
+
+<!-- ///////////////////////////// -->
+
+<!-- START Custom AEC Quest_list -->
+
+	<insertBefore xpath="/quests/quest_list[@id='trader_quests']">
+	
+		<quest_list id="test_aec_quests">
+			<quest id="test_aec_01"/>
+		</quest_list>
+		
+	</insertBefore>
+	
+<!-- END Custom AEC Quest_list -->
+
+<!-- ///////////////////////////// -->
+
+<!-- ************************* -->
+
+</configs>

@@ -1,0 +1,42 @@
+<configs>
+	<append xpath="/blocks">
+	<block name="vaultDoor_indes">
+		<property name="CustomIcon" value="vaultDoor03"/>
+		<property name="DescriptionKey" value="doorGroupDesc"/>
+		<property name="Class" value="DoorSecure"/>
+		<property name="Material" value="Mbedrock"/>
+		<property name="StabilitySupport" value="true"/>
+		<property name="PassThroughDamage" value="false"/>
+		<property name="LightOpacity" value="1"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Tags" value="door"/>
+		<property name="BlockTag" value="Door"/>
+		<property name="Model" value="Entities/Doors/steel_door_2_v3Prefab"/>
+		<property name="Place" value="Door"/> <!-- build restriction -->
+		<property name="PlaceEverywhere" value="true"/>
+		<property name="AllowAllRotations" value="true"/> <!-- enables the 45 degree rotations -->
+		<property name="ModelOffset" value="0,0,0"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="77"/>
+		<property name="DisplayType" value="blockHardenedMulti"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
+		<property name="OpenSound" value="open_door_vault"/>
+		<property name="CloseSound" value="close_door_vault"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="FilterTags" value="MC_building,SC_doors"/>
+	</block>
+	
+	
+	<block name="steelMaster_indes">
+		<property name="CustomIcon" value="steelMaster"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="DescriptionKey" value="steelBlockGroupDesc"/>
+		<property name="Material" value="Mbedrock"/>
+		<property name="DisplayType" value="blockHardened"/>
+		<property name="StabilitySupport" value="true"/>
+		<property name="PassThroughDamage" value="false"/>
+		<property name="Texture" value="355,355,356,356,356,356"/>
+		<property name="FilterTags" value="MC_building"/>
+	</block>
+	
+	</append>
+</configs>

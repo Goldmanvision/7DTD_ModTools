@@ -1,0 +1,6 @@
+D:\SteamLibrary\steamapps\common\7 Days To Die\Mods\0-SCore\obj\Debug\0-SCore.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\7 Days To Die\Mods\0-SCore\obj\Debug\0-SCore.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\7 Days To Die\Mods\0-SCore\obj\Debug\SCore.dll
+D:\SteamLibrary\steamapps\common\7 Days To Die\Mods\0-SCore\obj\Debug\SCore.pdb
+D:\SteamLibrary\steamapps\common\7 Days To Die\Mods\0-SCore\SCore.dll
+D:\SteamLibrary\steamapps\common\7 Days To Die\Mods\0-SCore\SCore.pdb

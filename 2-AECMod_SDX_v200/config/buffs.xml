@@ -1,0 +1,7 @@
+<configs>
+	<append xpath="/buffs">
+	<buff name="buff_AECMod" hidden="false">
+		<triggered_effect trigger="onSelfBuffStart" action="PumpQuestSDX, Mods" target="self"  />
+	</buff>
+	</append>
+</configs>

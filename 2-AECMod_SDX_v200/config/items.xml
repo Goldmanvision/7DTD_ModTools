@@ -1,0 +1,28 @@
+<configs>
+<append xpath="/items">
+
+
+	<item name="AECnoteTest01">
+		<property name="CustomIcon" value="challengeQuestMaster"/>
+		<property name="HoldType" value="31"/>		<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mpaper"/>
+		<property name="Stacknumber" value="10"/> <!-- STK book -->
+		<property name="Weight" value="2"/>
+		<property name="Group" value="Special Items"/>
+		<property name="DescriptionKey" value="AECnoteTest01Desc"/>
+	</item>
+	
+	<item name="AECnoteTest02">
+		<property name="CustomIcon" value="questMaster"/>
+		<property name="HoldType" value="31"/>		<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mpaper"/>
+		<property name="Stacknumber" value="20"/> <!-- STK book -->
+		<property name="Weight" value="2"/>
+		<property name="Group" value="Special Items"/>
+		<property name="DescriptionKey" value="AECnoteTest02Desc"/>
+	</item>
+
+</append>
+</configs>

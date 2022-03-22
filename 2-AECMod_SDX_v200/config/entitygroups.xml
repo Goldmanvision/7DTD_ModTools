@@ -1,0 +1,11 @@
+<configs><!--
+	<append xpath="/entitygroups/">
+		<entitygroup name="AEC_DialogTester">
+			<entity name="npcKaceyGellar"/>
+			<entity name="npcOfficerSMG"/>
+			<entity name="npcSoldier1TRifle"/>
+			<entity name="npcSoldier2TRifle"/>
+			<entity name="npcSoldier3TRifle"/>
+		</entitygroup>
+	</append>-->
+</configs>

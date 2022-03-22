@@ -1,0 +1,92 @@
+<configs>
+	<append xpath="/dialogs">
+		<dialog id="KaceyGellar" startstatementid="start">
+			<!-- Statements -->
+			
+			<statement id="start" text="dialog_KaceyGellar_statement_start">
+				<response_entry id="has_AEC_note_01"/>
+				<response_entry id="wh_DLAMP_KaceyGellar_01" />
+				<response_entry id="wy_here_01" />
+				<response_entry id="identify_KaceyGellar_01" />
+				<response_entry id="help_KaceyGellar_start" />
+				<response_entry id="done" /> -->
+			</statement>			
+			
+				<response id="has_AEC_note_01" text="[Give her the AEC note]." nextstatementid="has_AEC_note_01">
+					<requirement type="HasItemSDX, SCore" requirementtype="Hide" id="AECnoteTest01" value="1" /> 
+					<action type="GiveToNPC, SCore" id="AECnoteTest01" value="1" />
+					<action type="AddItemSDX, SCore" id="AECnoteTest02" />
+				</response>
+				
+				<statement id="has_AEC_note_01" text="Nice! I found one, too. Let's trade."
+				nextstatementid="start" />
+				
+				<response id="wh_DLAMP_KaceyGellar_01" text="dialog_KaceyGellar_response_wh_DLAMP_01" nextstatementid="wh_DLAMP_KaceyGellar_01">
+					<action type="AddJournalEntry" id="DLAMP_01_tip" />
+				</response>
+				
+					<statement id="wh_DLAMP_KaceyGellar_01" text="dialog_KaceyGellar_statement_wh_DLAMP_01" nextstatementid="start">
+					</statement>
+				
+				
+				<response id="wy_here_01" text="dialog_KaceyGellar_response_wy_here_01" nextstatementid="wy_here_01" />
+				
+		
+					<statement id="wy_here_01" text="dialog_KaceyGellar_statement_wy_here_01" nextstatementid="start" />
+
+				
+				<response id="identify_KaceyGellar_01" text="dialog_KaceyGellar_response_indentify_01" nextstatementid="identify_KaceyGellar_01">
+					<action type="AddJournalEntry" id="KaceyGellar_01_tip" />
+				</response>
+				
+					<statement id="identify_KaceyGellar_01" text="dialog_KaceyGellar_statement_indentify_01" nextstatementid="start" />
+				
+				
+				<response id="help_KaceyGellar_start" text="dialog_KaceyGellar_response_help_start" nextstatementid="help_KaceyGellar_start" />
+			
+							
+					<statement id="help_KaceyGellar_start" text="dialog_KaceyGellar_statement_help_start" nextstatementid="help_KaceyGellar_01" />
+					
+					<statement id="help_KaceyGellar_01" text="dialog_KaceyGellar_statement_help_01" nextstatementid="help_KaceyGellar_02" />
+					
+					<statement id="help_KaceyGellar_02" text="dialog_KaceyGellar_statement_help_02" nextstatementid="help_KaceyGellar_03" />
+					
+					<statement id="help_KaceyGellar_03" text="dialog_KaceyGellar_statement_help_03">
+						<response_entry id="help_KaceyGellar_no" />
+						<response_entry id="help_KaceyGellar_yes" />
+						<response_entry id="help_KaceyGellar_bedroll" />
+					</statement>
+
+						<response id="help_KaceyGellar_no" text="dialog_KaceyGellar_response_help_no" nextstatementid="help_KaceyGellar_no" />
+						
+							<statement id="help_KaceyGellar_no" text="dialog_KaceyGellar_statement_help_no" nextstatementid="start" />
+						
+						<response id="help_KaceyGellar_yes" text="dialog_KaceyGellar_response_help_yes" nextstatementid="help_KaceyGellar_yes" />
+						
+							<statement id="help_KaceyGellar_yes" text="dialog_KaceyGellar_statement_help_yes" nextstatementid="start"/>
+
+						
+						<response id="help_KaceyGellar_bedroll" text="dialog_KaceyGellar_response_help_bedroll_place" nextstatementid="help_KaceyGellar_bedroll_place" />
+						
+							<statement id="help_KaceyGellar_bedroll_place" text="dialog_KaceyGellar_statement_help_bedroll_place">
+								<response_entry id="help_KaceyGellar_bedroll_no" />
+								<response_entry id="help_KaceyGellar_bedroll_yes" />
+							</statement>
+							
+							<response id="help_KaceyGellar_bedroll_no" text="dialog_KaceyGellar_response_help_bedroll_no" nextstatementid="help_KaceyGellar_bedroll_no" />
+							
+								<statement id="help_KaceyGellar_bedroll_no" text="dialog_KaceyGellar_statement_help_bedroll_no" nextstatementid="start"/>
+								
+							<response id="help_KaceyGellar_bedroll_yes" text="dialog_KaceyGellar_response_help_bedroll_yes" nextstatementid="help_KaceyGellar_bedroll_yes" />
+						
+								<statement id="help_KaceyGellar_bedroll_yes" text="dialog_KaceyGellar_statement_help_bedroll_yes" nextstatementid="start">
+									<action type="AddItem" id="casinoCoin" value="350"/>
+								</statement>
+					
+
+			<response id="done" text="dialog_KaceyGellar_response_done" />
+			
+		</dialog>
+	</append>
+</configs>
+

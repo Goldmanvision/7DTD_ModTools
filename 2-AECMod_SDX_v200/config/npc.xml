@@ -1,0 +1,13 @@
+<configs>
+  <append xpath="/npc">
+    <npc_info
+    id="KaceyGellar"
+    name="Kacey Gellar"
+    name_key="npcKaceyGellar"
+    faction="whiteriver"
+    portrait="npc_traderJen"
+    greeting_type="nearby"
+    stance="Like" voice_set="npc_traderJen"
+    trader_id="1" dialog_id="KaceyGellar" />
+  </append>
+</configs>
