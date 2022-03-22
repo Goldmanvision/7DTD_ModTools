@@ -9,14 +9,20 @@ Folder hierarchy goes from 0-5,
 ---CONTENTS---
 --------------
 
-000-ReferenceGuide
-	- Contains copies of all readmes, tutorials, and documentation for the folders below.
+0-ReferenceGuide
+	- Contains overview information for how to work this mod.
 
 0-SCore_GVmod
-	- expands functionality and tags in Vanilla 7DTD with minor modifications by Goldmanvision (thanks Sphereii!)
+	- expands functionality and tags in Vanilla 7DTD with minor
+	modifications by Goldmanvision (thanks Sphereii!)
 
-1-XNPCCore_GVmod
-	- expands functionality of SCore NPCs with minor modifications by Goldmanvision.
+1a-SphereII NPC Dialog Windows
+	- creates better UI dialog windows for NPC interaction.
+	Without this, XNPCCore dialog doesn't display right.
+
+1b-XNPCCore_GVmod
+	- expands functionality of SCore NPCs with minor
+	modifications by Goldmanvision.
 
 2-SoldierPack_GVmod
 	- adds 4 base "soldier" and 1 base "officer" NPCs to the XNPCCore with minor modifications by Goldmanvision.
@@ -33,7 +39,7 @@ Folder hierarchy goes from 0-5,
 	variety of modding purposes with minimal amounts of code. Some blocks and items are
 	templates, but most are ready to use in the Prefab Editor or Debug Mode.
 
-4-GVmod_AECmod100
+4-GVmod_AECv100
 	- a proof of concept project with all above mods in a polished presentation.
 	All the flavor text. Mmm... flavor text...
 
