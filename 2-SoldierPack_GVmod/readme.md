@@ -1,5 +1,7 @@
 ## +275 Random NPC Names SoldierPack Update
 
+Uses XNPCCore SoldierPack and SCore. Both are required to run this mod.
+
 To install, place root folder in your 7 Days to Die\Mods folder.
 
 To update existing SoldierPack, simply replace the existing Soldier Pack config folder with this one.
