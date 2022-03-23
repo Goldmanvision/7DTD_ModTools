@@ -13,6 +13,7 @@ Folder hierarchy goes from 0-5,
 	- Contains overview information for how to work this mod.
 
 0-SCore_GVmod
+	https://github.com/7D2DMods/SDXMods
 	- expands functionality and tags in Vanilla 7DTD with minor
 	modifications by Goldmanvision (thanks Sphereii!)
 
@@ -21,6 +22,7 @@ Folder hierarchy goes from 0-5,
 	Without this, XNPCCore dialog doesn't display right.
 
 1b-XNPCCore_GVmod
+	https://github.com/7D2DMods/SDXMods/tree/master/SDX_EntityAliveSDX
 	- expands functionality of SCore NPCs with minor
 	modifications by Goldmanvision.
 
