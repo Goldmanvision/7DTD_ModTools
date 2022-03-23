@@ -58,7 +58,7 @@ When building your own project, folders 4 and 5 are not required in the final bu
 Rename folder 3-GV_Mod-ProjectTemplates to whatever you want to call your mod.
 
 Documentation on SCore can be found here.
-
+https://github.com/7D2DMods/SDXMods
 	A small update was made by Sphereii to expand
 	functionality of dialog actions with NPCs allowing
 	for NPCs to use action="AddItemSDX" to place an item
