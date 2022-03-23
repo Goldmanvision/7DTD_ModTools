@@ -59,14 +59,17 @@ Rename folder 3-GV_Mod-ProjectTemplates to whatever you want to call your mod.
 
 Documentation on SCore can be found here.
 https://github.com/7D2DMods/SDXMods
+
 	A small update was made by Sphereii to expand
 	functionality of dialog actions with NPCs allowing
 	for NPCs to use action="AddItemSDX" to place an item
 	in the PLAYER INVENTORY.
 
 Documentation on XNPCCore can be found here.
+https://community.7daystodie.com/topic/26974-npcmod-a-community-project/
 
 Documentation on SoldierPack can be found here.
+https://github.com/7D2D/A20Mods/tree/main/1-SoldierPack
 
 	Updates were made by Goldmanvision to expand the NPC names,
 	factions, and other properties. A full list of changes and
