@@ -54,8 +54,9 @@ Folder hierarchy goes from 0-5,
 -----NOTES----
 --------------
 
-When building your own project, folders 4 and 5 are not required in the final build.
-Rename folder 3-GV_Mod-ProjectTemplates to whatever you want to call your mod.
+When building your own project, folders 3a-c, 4, and 5 are not required in the final build.
+You may rename folder 3a-GV_Mod-ProjectTemplates to whatever you want to call your
+mod if you want to start working directly with the template.
 
 Documentation on SCore can be found here.
 https://github.com/7D2DMods/SDXMods
