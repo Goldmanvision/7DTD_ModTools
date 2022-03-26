@@ -33,9 +33,8 @@ Folder hierarchy goes from 0-5,
 3a-GVmod_ProjectTemplates
 	- adds a template project with SCore and XNPCore. No flavor text.
 
-3b-GVmod_ImmerSim
-	- A collection of mods that adds elements of the game for more realism and immersion.
-	Elevators, weapons, items, blocks, and more. Full feature list and creator credits available in folder.
+3b-GVmod_psychBuffs
+	- A collection of psychological buffs and conditions created for AEC mod.
 
 3c-GVmod_ModderBackpack
 	- a collection of modded blocks and items with specified functionality to fit a wide
