@@ -1,0 +1,305 @@
+﻿<configs>
+	<append xpath="/buffs">
+
+		<!-- AFRAID -->
+		<buff name="psychBuff_buff_psychAfraid">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+		
+		<!-- STRESSED OUT -->
+		<buff name="psychBuff_buff_psychStress">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychPTSD" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+		
+		<!-- PTSD -->
+		<buff name="psychBuff_condition_psychPTSD">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- SHOCK -->
+		<buff name="psychBuff_buff_psychShock">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- TIRED -->
+		<buff name="psychBuff_buff_psychTired">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- EXTREMELY TIRED -->
+		<buff name="psychBuff_buff_psychExtremelyTired">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychPTSD" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- PASSING OUT -->
+		<buff name="psychBuff_buff_passOut">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- WELL-RESTED -->
+		<buff name="psychBuff_buff_wellRested">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- INSOMNIAC -->
+		<buff name="psychBuff_condition_psychInsomniac">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- JOYFUL -->
+		<buff name="psychBuff_buff_psychJoyful">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychPTSD" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- ANGER -->
+		<buff name="psychBuff_condition_psychAnger">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- HAPPY -->
+		<buff name="psychBuff_buff_psychHappy">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- FAVORITE THINGS -->
+		<buff name="psychBuff_buff_psychFavorites">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- OPTIMISM -->
+		<buff name="psychBuff_buff_psychOptimism">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- PESSIMISM -->
+		<buff name="psychBuff_buff_psychPessimism">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- DEPRESSION -->
+		<buff name="psychBuff_buff_psychDepression">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- SOCIOPATHY -->
+		<buff name="psychBuff_buff_psychSociopathy">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- EGOTISM -->
+		<buff name="psychBuff_buff_psychEgotism">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- SHAME -->
+		<buff name="psychBuff_buff_psychShame">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- GRIEF -->
+		<buff name="psychBuff_buff_psychGrief">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- BITTER HATRED -->
+		<buff name="psychBuff_buff_psychBitterHatred">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- "EUREKA MOMENT" -->
+		<buff name="psychBuff_buff_psychEureka">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- TARGET PRACTICE -->
+		<buff name="psychBuff_buff_psychTargetPractice">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- SELF-CARE -->
+		<buff name="psychBuff_buff_psychPessimism">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- "THERAPY SESH" -->
+		<buff name="psychBuff_buff_psychTherapySesh">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- HOMESICK -->
+		<buff name="psychBuff_buff_psychHomesick">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- "BFFS FOREVER" -->
+		<buff name="psychBuff_buff_psychBFFs">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<!-- "WE FAMILY" -->
+		<buff name="psychBuff_buff_psychPessimism">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="psychStress" operation="base_add" value="10"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="10"/>
+		</buff>
+
+		<buff name="bob" name_key="buffBOBModeName" description_key="HELLO BOB." tooltip_key="HELLO BOB." icon="ui_game_symbol_add" icon_color="132,0,155">
+			<stack_type value="ignore"/>
+			<display_value_key value="buffGodModeNameShort"/>
+			<display_value value="xxx"/>
+			<effect_group>
+				<passive_effect name="HealthLoss" operation="base_set" value="0"/>
+				<passive_effect name="HealthLoss" operation="perc_set" value="0"/>
+				<passive_effect name="HealthLoss" operation="perc_add" value="-1.2"/>
+
+				<!--
+			<passive_effect name="HealthChangeOT" operation="perc_set" value="0"/>
+			<passive_effect name="FoodChangeOT" operation="perc_set" value="0"/>
+			<passive_effect name="WaterChangeOT" operation="perc_set" value="0"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="25000"/>
+			-->
+
+				<!--<passive_effect name="HealthMaxModifierOT" operation="base_add" value="100"/>-->
+				<!--<passive_effect name="StaminaMaxModifierOT" operation="base_add" value="100"/>-->
+
+				<passive_effect name="CarryCapacity" operation="base_set" value="45"/>
+				<passive_effect name="ElementalDamageResist" operation="base_add" value="200" tags="cold,heat,electrical"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="200"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="200" tags="coredamageresist"/>
+				<passive_effect name="ElementalDamageResist" operation="base_add" value="200" tags="heat,electrical"/>
+
+				<!-- <triggered_effect trigger="onSelfBuffStart" action="GiveExp" exp="@_expdeficit"/> -->
+
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveAllNegativeBuffs"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="set" value="25000"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Food" operation="set" value="25000"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Water" operation="set" value="25000"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Stamina" operation="set" value="25000"/>
+
+				<!--
+			<triggered_effect trigger="onSelfBuffUpdate" action="LogMessage" message="Crouching"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="_sheltered"/>
+			-->
+
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$armHurtCounter" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$legHurtCounter" operation="set" value="0"/>
+
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="healAbrasionMult" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="foodHealthAmount" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$abrasionHealthMaxBlockage" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$abrasionCounter" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus"/>
+
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="10000">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="10000"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="2500">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="2500"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="600">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="600"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="150">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="150"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="40">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="40"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="10">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GT" value="0"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugRecogDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugFortBitesDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugAtomJunkiesDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugCovertCatsDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugEyeKandyDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugHackersDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugHealthBarDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugJailBreakersDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugNerdTatsDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugOhShitzDropsDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugRockBustersDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugSkullCrushersDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffDrugSugarButtsDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffShamChowderDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffPumpkinCheesecakeDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffYuccaJuiceSmoothieDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCoffeeBSDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffGrandpasMoonshineDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffGrandpasAwesomeSauceDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffGrandpasLearningElixirDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$foodAmountAdd" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			</effect_group>
+		</buff>
+		
+		</append>
+</configs>

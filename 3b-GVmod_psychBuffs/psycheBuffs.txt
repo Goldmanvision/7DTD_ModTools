@@ -1,0 +1,134 @@
+For all Psychological Buffs, there is a base variable (psychXPmodifier) that is multiplied or divided by RNG. This affects the player XP, by a lot or a little depending on the psychBuff. Certain psychBuffs will also affect other Player Stats, such as being Afraid gives you a temporary boost to your stamina, while as traumatized will be detrimental to the Player's stamina. Prolonged periods in the Afraid state will lead to the Stressed Out state, and on.
+
+
+
+<!-- Below is a list of all the proposed psychBuffs -->
+
+<--! Related to combat conditions, number of kills within a time period, amount of time in the condition, etc. Calls psychCombat
+	
+	Afraid
+		Stacks on "stressed out"
+		Hearing zombies adds to cvar psychFear
+		Effects triggered by high value cvar psychFear
+		Stamina boost, duration in Afraid state adds to cvar psychStress
+		Dissipates over time
+		
+	Stressed Out
+		Stacks on "traumatized"
+		triggered by psychStress total over set time period
+		Temporary stamina reduction
+		Temporary Appetite increase
+		Dissipates over time or by calling psychRecovery buffs
+		
+	Traumatizing Event
+		Prolonged Stressed Out state required
+		Permanent stamina reduction
+		Permanent appetite increase
+		Permanent maxHealth reduction
+		Calls psychExhaust_Insomnia
+		Can stack on itself.
+		
+	Shock
+		Temporary condition trigger at the start of a Traumatizing Event.
+		
+		
+<--! Related to cvar DailyExhaustion. Calls psychExhaust -->
+
+	Tired
+		Player needs 6 hours sleep.
+	Extremely Tired
+		Player needs 9 hours sleep.
+	Pass-Out
+		You will pass out if Player stops moving for a very short duration.
+		Chance for zombies or bandits to wake Player up (instant death).
+	Well-Rested
+		Player has gotten enough sleep.
+	Insomnia
+		Player is not affected by Daily Exhaustion.
+		Stamina recovery reduction.
+		Triggered by negative psychological conditions.
+		Permanent XP boost.
+
+<--! Temporary boosts to Player stats from using an item, talking to an NPC, etc. Calls psychMood -->
+
+	Joyful
+		Sets cvar psychJoy to 100 and reduces over time.
+		Stamina and speed boost akin to drinking coffee.
+		Adds to cvar psychHappiness
+		Hard set reduction of psychStress
+		Disable Joyful state when psychJoy reaches 0.
+		
+	Angry
+		Sets cvar psychAnger to 100 and reduces over time.
+		Stamina and speed boost akin to drinking coffee.
+		maxHealth boost.
+		Reduces psychHappiness over time.
+		Hard set reduction of psychStress.
+		Disable Angry state when psychAnger reaches 0.
+		
+		
+	Happy
+		Triggered by prolonged Joyful state.
+		Offsets DailyExhaustion over time.
+		Offsets psychFear over time.
+		Offsets psychStress over time.
+		Reduces over time.
+		Stacks on Traumatized
+		
+	Favorite Food, Weather, Biome
+		Instantly triggers triggers Happy state
+	
+	Optimism
+		Triggers Happy state through dialog.
+	
+	Pessimism
+		Instantly triggers the Stressed Out state.
+
+<--! Related to alignment based on direct actions, prolonged periods in negative psychological states, or completing quest chains. Quest chain psychological states will overwrite the previous after completing a new quest. Calls psychCondition -->
+
+	Depression
+		
+	Psychopathy
+		Permanent buff, does not stack, overwrites most psychBuffs
+		Triggered by negative (evil) alignment
+		Instantly triggers Insomniac
+		All psychBuffs are locked until Psychopathy state ends
+	Egotism
+		Triggered by dialog choices, calculated by cVar psychEgo
+		MaxHealth increase
+		MaxStamina increase
+		Hunger reduced
+		Offsets pyschFear and psychStress.
+	Shame
+		
+	Grief
+	
+	Bitter Hatred
+
+<--! Using experience boosting items or watching videos, learning something from an NPC will call psychLearn -->
+
+	Eureka Moment
+	Target Practice
+
+
+<--! Temporary buffs triggered by dialog choices, interacting with favorite things, rest, returning to your home base, etc. will call psychRecovery --> 
+
+	Self-Care
+	Therapy Sesh
+	Homesick
+	BFFs Forever
+	We Family
+
+
+Alignments
+<--! Triggered by the total number of alignment points, given to the player through quests, actions, and dialog. Calls psycheAlignment -->
+
+	-- GOOD --
+	2) Virtuous Citizen of the Apocalypse
+	1) Got It Where it Counts
+	-- NEUTRAL --
+	0) Wild Wolf
+	-1) It's Not a Cult...
+	-- EVIL --
+	-2) Hot Blooded Killer
+	-3) War Criminal
