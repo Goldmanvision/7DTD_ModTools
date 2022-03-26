@@ -35,22 +35,3 @@
 		<property name="Names" value="Kayleigh,Kaelyn,Fern,Rhiannon,Rhianna,Kimberly,Kim,Kimmy,Daisy,Harley,Maria,Mimi,Halima,Samantha,Tajreena,Natalie,Natalia,Tassa,Samantha,Sam,Sammy,Ffion,Salma,Selma,Esther,Hester,Isabelle,Isabella,Emelia,Leonie,Martha,Jasmin,Ida,Francesca,Fran,Frankie,Zoya,Zora,Nora,Courtney,Matilda,Tille,Max,Dale,Carly,Elle,Elizabeth,Leia,Sophie,Sophia,Sofi,Gabrielle,Nettie,Alex,Lexi,Mariam,Miriam,Mitzi,Paula,Shane,Catherine,Cate,Cat,Katherine,Kate,Kat,Anya,Stacey,Beth,Bette,Stacy,Tanisha,Jamie,Elsie,Chelsea,Taylor,Niamh,Agnes,Mirabel,Agnes,Nessa,Nita,Georgie,Georgia,Antonia,Nella,Christine,Tiffany,Khadija,Ashley,Kelly,Ronnie,Rose,Helen,Lena,Edie,Alannah,Alyssa,Alessa,Cerys,Eleanor,Leora,Joel,Lara,Abigail,Gale,Zaynab,Rachel,Annabel,Leila,Lizbet,Gemma,Elena,Minnie,Mollie,Charlie,Danielle,Dannell,Meghan,Priya,Tyler,Ilsa,Lucie,Lucy,Kathryn,Kara,Iqra,April,Maggie,Maikki,Micah,Mischa,Hannah,Kyla,Kylie,Luisa,Loulou,Nannie,Sharon,Lottie,Harris,Kristina,Christi,Constance,Flora,Rhea,Esme,Hannah,Maddie,Madeline,Joanne,Jasmine,Yasmine,Emily,Emmy,Emma,Daniella,Dani,Elsa,Elli,Courtney,Jean,Jan,Nadia,Katya,Bel,Bella,Lia,Aaliyah,Laura,Isobel,Tilly,Alice,Ali,Irene,Rina,Dorothy,Dorte,Dotty,Deborah,Debbie,Holly,Amy,Darcie,Amina,Amelia,Hafsa,Diane,Diana,Aleena,Chelsea,Gracie,Caroline,Penelope,Cassie,Cassandra,Barbara,Doreen,Arlene,Rosa,Aisha,Thea,Kiara,Julia,Kristen,Linda,Lindy,Mary,Maria,Mari,Anisa,Annalise,Ayla,Francesca,Kyla,Nancy,Keira,Scarlett,Clara,Philippa,Elise,Violet,Kaitlin,Caitie,Sienna,Lili,Lilly,Faye,Fae,Abbie,Lillian"/>
 		<!-- FIRST and LAST NAMES (FEMALE) -->
 		<property name="Names" value=""/>
-=======
-## FILE FORMAT
-<!-- Name of tag or snippet -->
-<!-- description of usage -->
- 
-    <!-- start tag or snippet -->
-    <!-- end tag or snippet -->
-
-<!-- //////// GVmod_NiftyTags \\\\\\\\ -->
-
-<!-- +275 Random Surnames for NPCS -->
-<!--  to use, copy the property name="Names" tag below and go into your entityClasses.xml file.
-      Replace NPC's property name="Names" tag with the tag copied from below -->
-
-   <!-- start 275randomSurnames -->
-   
-    <property name="Names" value="Underwood,Phelps,Perkins,Guerrero,Collins,Allen,Calderon,Graves,Navarro,Chavez,Hussain,Aguilar,Thomas,Mccann,Knight,Garza,Curry,Vaughn,Richardson,Heath,Burke,Fleming,Powell,Lewis,Hines,Reyes,Poole,Meyer,Dawson,Jordan,Norman,Sherman,Patel,Mejia,Gross,RichardsonBurton,Christensen,Mills,Malone,Graham,Luna,King,Naylor,Casey,Taylor,Tucker,Jenkins,Johnson,Berry,Gutierrez,Buchanan,Gibson,Carpenter,Fields,Stewart,Lord,Dale,Barton,Castaneda,Cassella,Daniels,Bell,French,Stephens,Wyatt,Byrne,Austin,Ward,Mac,Wood,Burns,Schwartz,Carrillo,Moody,Barker,Schultz,Green,Todd,Brooks,Fernanez,Parker,Alexander,Pacheco,Schnieder,Reid,Larson,Hart,Mccarthy,Doyle,Wright,Bradley,Bennett,Campos,Sanchez,Jacobs,Fuentes,Long,Strickland,Mitchell,Adam,Rice,Summers,Vargas,Garcia,Byrd,Kumar,Copeland,Mullins,Reynolds,Sutton,Sherman,Figueroa,Washington,Ellis,Robertson,Watkins,West,Stone,Hughes,Wood,Peterson,Perez,Hampton,Banks,Pratt,Douglas,Newton,Elliott,O'Reilly,Thorne,Wong,Singh,Bryant,Zimmerman,Willis,Schneider,Blair,Salazar,Manning,Holland,Dixon,Rhodes,Thomas,Robbins,Medina,Thompson,Mckinney,Mccarthy,Ferguson,Oliver,Schroeder,Little,Espinoza,Simpson,Fox,Ashton,Graves,Parks,Stewart,Hawkins,McDonald,Wells,Ruiz,Scott,Benson,Schofield,King,Griffiths,Gomez,Mills,Sims,Jimenez,Bowen,Brady,Watson,James,Brown,Harper,Hamilton,Henderson,Richardson,Davidson,Winterbourne,Grinberry,Helicanus,Abdulhameed,Ahmed,Turunen,Tenzin,Renderman,Merimee,Hinsen,Moku,Lee,Pavlovec,Connock,Treric,Hassildor,Jendowanian,Solderini,Taurus,Trelawney,Vasilj,Zorander,Karlheim,Tregonning,Sanguina,Angelidis,Dunkeld,Atremidorus,Parakh,Thoreau,Souki,Escalus,Tauala,Saturnius,Peixes,Margatroid,Dogberry,Salinasgarcia,Trevanion,Zunega,Suco,Garraty,Dalu,Osaghae,Rzeszotarski,Tuchez,Kaa,Sarasti,Sevasti,Hodgett,Nattiel,Amiens,Chiron,Overbrook,Pegany,Ismayilov,Pettiette,Svab,Malyshev,Fogell,Hassim,Viehe,Petett,Dochniak,Starkov,Nikolov,Korslin,Cousland,Baruwal,Opress,Zikas,Hofschneider,Darling,Biondello,Cao,Subedar,Philostrate,Kapenga,Fitak,Sadjadi,Kehrig,Rambures,Polifroni,Gorloisen,Selmy,Tregloyne,Kottmeyer,Dechurch,Deseus,Dejesus,Pazur,Ursetta,Demessie,Araka,Mansour,Papazian" />	
-   
-   <!-- end 275randomSurnames -->
